@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+hr {
+  width: 320px;
+}
+
+.mark {
+  background-color: yellow;
+  color: black;
+}
+
+.wrap-educ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 220px;
+}
+
+.educ-purpose {
+  width: 800px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.for-more,
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transform: translateY(-30px);
+}
+
+.mid-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  transform: translateY(160px);
+  font-size: 70px;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* footer  */
+
+.footer-background-image {
+  background: url(./images/background-image.jpg);
+  padding-bottom: 20px;
+}
+
+footer {
+  max-width: 90rem;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 15px 50px;
+  border-radius: 18px;
+  background-color: #528f43;
+  height: 60vh;
+  transform: translateY(-10px);
+}
+
+.wrapper {
+  position: relative;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-40px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.main-container h1 {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-wrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+/* what is dissection */
+
+.about-dissection {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-dissection h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.details-about-dissection {
+  border: 2px solid #99c68e;
+  width: 620px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+
+  /* transition: background-color 0.3s ease; */
+}
+
+/* 
+.details-about-dissection:hover {
+  background-color: aqua;
+} */
+
+.details-about-dissection p {
+  font-size: 1.5em;
+  text-indent: 60px;
+  text-align: justify;
+  color: white;
+}
+
+/* purpose */
+
+.purpose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.purpose h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.details-purpose {
+  border: 2px solid #99c68e;
+  width: 620px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.details-purpose p {
+  font-size: 1.5em;
+  text-indent: 60px;
+  text-align: justify;
+  color: white;
+}
+
+/* importance */
+
+.importance h1 {
+  text-align: center;
+}
+
+.details-importance {
+  border: 2px solid #99c68e;
+  width: 620px;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.details-importance p {
+  font-size: 1.5em;
+  text-indent: 60px;
+  text-align: justify;
+  color: white;
+}
+
+.src {
+  font-size: 30px;
+}
+
+.details-purpose a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+a:hover {
+  transition: all 0.7s ease;
+  color: red;
+}
+
+/* Objectives of dissection */
+
+.container-of-objectives {
+  height: 100vh;
+}
